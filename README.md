@@ -6,7 +6,7 @@ Repositorio público de descargas de **ZequeOptimizador**. Acá se publican úni
 
 Andá a **[Releases](../../releases/latest)** y bajá `ZequeOptimizador.exe`.
 
-No hace falta instalar nada más: es un ejecutable **portable y self-contained** (no requiere .NET aparte).
+No hace falta instalar nada más: es un ejecutable **portable y self-contained** (no requiere .NET aparte). Al descargarlo y usarlo aceptás el [EULA](EULA.md).
 
 ## Qué es
 
@@ -44,7 +44,12 @@ Para probar **Extremo** usá una **VM con snapshot**, no tu PC principal: borra 
 
 ## Verificación del binario
 
-Cada release publica su **SHA-256** y su tamaño en bytes. Para verificarlo en PowerShell:
+| Dato | Valor |
+|---|---|
+| SHA-256 | `7951B9B6354A574F7631FB7C80BBFBC5BCBC1B2686142853157C48A0C912C904` |
+| Tamaño | `62.808.577` bytes |
+
+Para verificarlo en PowerShell:
 
 ```powershell
 Get-FileHash .\ZequeOptimizador.exe -Algorithm SHA256
@@ -53,7 +58,7 @@ Get-Item .\ZequeOptimizador.exe | Select-Object Length
 
 ## Privacidad y seguridad
 
-- La app **no se conecta a Internet** ni envía telemetría.
+- La app **no envía telemetría ni abre conexiones propias a Internet**. Reparar o revertir apps puede usar **winget/Microsoft Store**, y eso sí requiere conexión.
 - La base de conocimiento va embebida en el .exe.
 - La importación de una base externa es opcional, requiere confirmación y pasa por validación de estructura, política de seguridad y catálogo auditado.
 - Los cambios que apliques son responsabilidad tuya. Revisá siempre la vista previa y el punto de restauración.
@@ -69,3 +74,7 @@ Borrá `ZequeOptimizador.exe` y, si querés limpiar datos, la carpeta:
 ## Aviso
 
 Este software modifica configuración de Windows. Algunos cambios del perfil Extremo son irreversibles y pueden afectar Windows Update, Defender, aplicaciones y funciones de accesibilidad. Usalo bajo tu responsabilidad y con respaldo.
+
+## Licencia
+
+El uso del binario se rige por el [Acuerdo de Licencia de Usuario Final (EULA)](EULA.md). Todos los derechos reservados.
