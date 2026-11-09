@@ -92,4 +92,4 @@ SOFTWARE.
 
 ---
 
-ZequeOptimizador incluye DefenderRemover.exe v12.8.4 bajo CC BY-NC 4.0. El resto de los binarios de terceros corresponden al runtime de .NET. No descarga código en tiempo de ejecución ni envía datos a servidores.
+ZequeOptimizador incluye DefenderRemover.exe v12.8.4 bajo CC BY-NC 4.0. El resto de los binarios de terceros corresponden al runtime de .NET. La app no descarga código propio en tiempo de ejecución ni envía datos a servidores; reparar o revertir apps puede usar winget/Microsoft Store, que sí requieren conexión.

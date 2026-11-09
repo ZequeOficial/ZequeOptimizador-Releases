@@ -46,6 +46,8 @@ Aplicación de escritorio para Windows que:
 
 Se permite mostrar, reseñar y promocionar el Software en videos, streams, artículos y redes sociales, incluso en canales monetizados, siempre que se enlace a la descarga oficial y no se rehostee ni redistribuya el `.exe`. No se debe sugerir que el Software es propio del canal. Para permisos especiales, contactá a **ZequeOficial**.
 
+Los componentes de terceros se rigen por sus propias licencias; ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 ## Verificación del binario
 
 | Dato | Valor |
