@@ -36,6 +36,17 @@ SOFTWARE.
 
 ---
 
+## Defender Remover
+
+- Proyecto: [ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover)
+- Binario: `DefenderRemover.exe` v12.8.4, 842.994 bytes
+- SHA-256: `C8DFEDFDB3EE6C5761AC119655D522850ABD84649E13D0BF55EFA8F0AD4F7FD7`
+- Uso: embebido en el .exe y ejecutado a pedido desde **Herramientas**.
+- Licencia: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+- Licencia upstream: [LICENSE](https://github.com/ionuttbara/windows-defender-remover/blob/main/LICENSE)
+
+---
+
 ## .NET 10 Runtime
 
 - Proyecto: dotnet/runtime
@@ -81,4 +92,4 @@ SOFTWARE.
 
 ---
 
-ZequeOptimizador no incluye binarios de terceros distintos del runtime de .NET, salvo las herramientas externas que se ejecutan a pedido del usuario desde Herramientas. No descarga código en tiempo de ejecución ni envía datos a servidores.
+ZequeOptimizador incluye DefenderRemover.exe v12.8.4 bajo CC BY-NC 4.0. El resto de los binarios de terceros corresponden al runtime de .NET. No descarga código en tiempo de ejecución ni envía datos a servidores.

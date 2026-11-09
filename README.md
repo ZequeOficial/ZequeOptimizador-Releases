@@ -40,7 +40,11 @@ Aplicación de escritorio para Windows que:
 | **Avanzado** | 51 | Suma 17 apps reversibles de la whitelist. |
 | **Extremo** | 90 (88 seleccionables) | Suma Windows Update/Defender, bloque de 139 servicios, bloques agresivos, apps y funciones de accesibilidad. **Irreversible en varios puntos.** |
 
-Para probar **Extremo** usá una **VM con snapshot**, no tu PC principal: borra apps, accesibilidad y Edge Update de forma irreversible.
+**Extremo** es irreversible en varios puntos. Usalo bajo tu responsabilidad; si querés probarlo con una red de seguridad, se recomienda una **VM con snapshot**.
+
+## Reseñas y promoción
+
+Se permite mostrar, reseñar y promocionar el Software en videos, streams, artículos y redes sociales, incluso en canales monetizados, siempre que se enlace a la descarga oficial y no se rehostee ni redistribuya el `.exe`. No se debe sugerir que el Software es propio del canal. Para permisos especiales, contactá a **ZequeOficial**.
 
 ## Verificación del binario
 
@@ -77,4 +81,4 @@ Este software modifica configuración de Windows. Algunos cambios del perfil Ext
 
 ## Licencia
 
-El uso del binario se rige por el [Acuerdo de Licencia de Usuario Final (EULA)](EULA.md); todos los derechos sobre el binario están reservados. El código fuente no se distribuye y su licencia es MIT. Los componentes de terceros y sus licencias se listan en [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+El uso del binario se rige por el [Acuerdo de Licencia de Usuario Final (EULA)](EULA.md); todos los derechos sobre el binario están reservados. El código fuente no se distribuye y su licencia es MIT. Los componentes de terceros y sus licencias se listan en [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), incluido **Defender Remover v12.8.4** bajo **CC BY-NC 4.0**.
