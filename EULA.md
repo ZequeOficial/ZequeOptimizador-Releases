@@ -1,6 +1,6 @@
 # EULA — ZequeOptimizador
 
-Copyright (c) 2026 ZequeOficial. **Todos los derechos reservados.**
+Copyright (c) 2026 ZequeOficial. **Todos los derechos reservados sobre el binario.**
 
 Este Acuerdo de Licencia de Usuario Final ("EULA") regula el uso del ejecutable **ZequeOptimizador** ("el Software"), distribuido gratuitamente a través de:
 
@@ -21,30 +21,36 @@ No se permite:
 - Eliminar o alterar avisos de autoría, licencia o marcas.
 - Usar el Software para actividades ilícitas o para dañar equipos de terceros.
 
+Estas restricciones se aplican salvo lo permitido por las licencias de terceros aplicables y la ley.
+
 ## 3. Código fuente
 
-El código fuente no se distribuye y no se licencia bajo este EULA. Todos los derechos sobre el código quedan reservados.
+El código fuente no se distribuye. Su licencia se rige por el archivo LICENSE del repositorio privado, que es MIT. Este EULA no limita los derechos que esa licencia otorga a quien reciba el código.
 
-## 4. Sin garantía
+## 4. Componentes de terceros
+
+El Software incluye o deriva componentes de terceros que se distribuyen bajo sus propias licencias. Por ejemplo, parte de la base de conocimiento deriva de winutil, publicado bajo licencia MIT. Esas licencias se reproducen en [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) y prevalecen sobre este EULA para los componentes correspondientes. Este EULA no limita los derechos que esas licencias otorgan.
+
+## 5. Sin garantía
 
 EL SOFTWARE SE PROPORCIONA "TAL CUAL" Y "SEGÚN DISPONIBILIDAD", SIN GARANTÍAS DE NINGÚN TIPO, EXPRESAS O IMPLÍCITAS, INCLUYENDO, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR, AUSENCIA DE VIRUS O ERRORES, Y NO INFRACCIÓN. NO SE GARANTIZA QUE EL SOFTWARE FUNCIONE SIN INTERRUPCIONES NI QUE CORRIJA TODOS LOS PROBLEMAS.
 
-## 5. Limitación de responsabilidad
+## 6. Limitación de responsabilidad
 
 EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, EL AUTOR NO SERÁ RESPONSABLE POR DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES O PUNITIVOS, NI POR PÉRDIDA DE DATOS, RENDIMIENTO, GANANCIAS O USO, DERIVADOS DEL USO O DE LA IMPOSIBILIDAD DE USAR EL SOFTWARE.
 
-## 6. Cambios irreversibles
+## 7. Cambios irreversibles
 
 El Software modifica configuración de Windows y, en determinados perfiles, puede borrar aplicaciones, funciones de accesibilidad y componentes de actualización de forma irreversible, además de afectar Windows Update o Defender. Es responsabilidad del usuario revisar la vista previa, crear un punto de restauración y probar en un equipo o máquina virtual aislada. El uso del perfil **Extremo** es bajo tu propio riesgo.
 
-## 7. Datos y privacidad
+## 8. Datos y privacidad
 
 La app no envía telemetría ni abre conexiones propias a Internet. Reparar o revertir aplicaciones puede usar **winget/Microsoft Store**, que sí requieren conexión. Los datos de uso (respaldos, ajustes y registros) quedan en `%LOCALAPPDATA%\ZequeOptimizador`.
 
-## 8. Terminación
+## 9. Terminación
 
 Esta licencia termina automáticamente si incumplís estos términos. En ese caso debés dejar de usar el Software y borrar todas las copias.
 
-## 9. Contacto
+## 10. Contacto
 
 Para permisos especiales o consultas, abrí un issue en el repositorio de descargas o contactá a **ZequeOficial** en GitHub.
