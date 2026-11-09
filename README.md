@@ -77,4 +77,4 @@ Este software modifica configuración de Windows. Algunos cambios del perfil Ext
 
 ## Licencia
 
-El uso del binario se rige por el [Acuerdo de Licencia de Usuario Final (EULA)](EULA.md). Todos los derechos reservados.
+El uso del binario se rige por el [Acuerdo de Licencia de Usuario Final (EULA)](EULA.md); todos los derechos sobre el binario están reservados. El código fuente no se distribuye y su licencia es MIT. Los componentes de terceros y sus licencias se listan en [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
