@@ -52,8 +52,8 @@ Los componentes de terceros se rigen por sus propias licencias; ver [THIRD_PARTY
 
 | Dato | Valor |
 |---|---|
-| SHA-256 | `7696604D2E856668B6677AE07D8F08416B8381B4D8EA84AC9E910D9FA4E54BE8` |
-| Tamaño | `62.843.878` bytes |
+| SHA-256 | `E741A1ED436ADE597A705A69D294054D4333910F1813E41B21F7B13BD97269D7` |
+| Tamaño | `62.856.498` bytes |
 
 Para verificarlo en PowerShell:
 
