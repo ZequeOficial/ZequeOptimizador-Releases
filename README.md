@@ -36,9 +36,9 @@ Aplicación de escritorio para Windows que:
 | Perfil | Items | Qué incluye |
 |---|---:|---|
 | **Seguro** | 19 | Base verificada. No desinstala ni toca Windows Update/Defender. |
-| **Estándar** | 34 | Suma el preset Standard de winutil y telemetría segura. |
-| **Avanzado** | 51 | Suma 17 apps reversibles de la whitelist. |
-| **Extremo** | 90 (88 seleccionables) | Suma Windows Update/Defender, bloque de 139 servicios, bloques agresivos, apps y funciones de accesibilidad. **Irreversible en varios puntos.** |
+| **Estándar** | 36 | Suma el preset Standard de winutil y telemetría segura. |
+| **Avanzado** | 53 | Suma 17 apps reversibles de la whitelist. |
+| **Extremo** | 95 (93 seleccionables) | Suma Windows Update/Defender, bloque de 139 servicios, bloques agresivos, apps y funciones de accesibilidad. **Irreversible en varios puntos.** |
 
 **Extremo** es irreversible en varios puntos. Usalo bajo tu responsabilidad; si querés probarlo con una red de seguridad, se recomienda una **VM con snapshot**.
 
@@ -52,8 +52,8 @@ Los componentes de terceros se rigen por sus propias licencias; ver [THIRD_PARTY
 
 | Dato | Valor |
 |---|---|
-| SHA-256 | `7951B9B6354A574F7631FB7C80BBFBC5BCBC1B2686142853157C48A0C912C904` |
-| Tamaño | `62.808.577` bytes |
+| SHA-256 | `7696604D2E856668B6677AE07D8F08416B8381B4D8EA84AC9E910D9FA4E54BE8` |
+| Tamaño | `62.843.878` bytes |
 
 Para verificarlo en PowerShell:
 
